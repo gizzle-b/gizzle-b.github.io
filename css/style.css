@@ -33,7 +33,7 @@ nav.pinned {
 }
 
 .hero:hover{
-    background-color: #FFE4E1;
+    background-color: #CCB7B4;
 }
 
 .hero h1 {
@@ -42,10 +42,6 @@ nav.pinned {
     color: white;
     padding-top: 21rem;
     z-index: 2;
-}
-
-.hero h1:hover{
-    color: #434B4C;
 }
 
 .hero h6 {
