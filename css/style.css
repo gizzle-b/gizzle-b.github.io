@@ -28,7 +28,12 @@ nav.pinned {
 .hero {
     height: 100%;
     background-color: #B2DBD7;
+    transition: background-color 0.5s ease;
     cursor: default;
+}
+
+.hero:hover{
+    background-color: #FFC0CB;
 }
 
 .hero h1 {
