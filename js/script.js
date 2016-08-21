@@ -1,5 +1,4 @@
-$(document).ready(function()
-{
+$(function(){
 function toggle_color (color1,color2,cycle_time,wait_time){
     setInterval (function first_color(){
         $("nav").animate({
@@ -17,6 +16,7 @@ function change_color (){
         });
 }
 }
+
             
 toggle_color ('#B2DBD7','#FFC0CB',8000,3000);
 });
