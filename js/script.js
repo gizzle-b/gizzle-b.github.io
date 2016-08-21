@@ -1,18 +1,3 @@
-$(function(){
-toggle_color ("#B2DBD7","#FFC0CB",4000,2000);
-function toggle_color (color1,color2,cycle_time,wait_time){
-    setInterval (function first_color(){
-        document.body.style.backgroundColor=color1;
-        setTimeout(change_color, wait_time);
-    }, cycle_time);
-                
-function change_color (){
-       document.body.style.backgroundColor=color2;
-}
-}
-
-});
-
 $(function() {
     $(window).scroll(function() {
 		
