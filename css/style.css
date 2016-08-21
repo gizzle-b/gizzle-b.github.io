@@ -10,8 +10,7 @@ nav {
 nav.pinned {
     position: fixed;
     top: 0;
-    /*background-color: #B2DBD7;*/
-    background-color: #FFC0CB;
+    background-color: #B2DBD7;
     transition: background-color 0.5s ease;
 }
 
@@ -28,8 +27,7 @@ nav.pinned {
 
 .hero {
     height: 100%;
-    /*background-color: #B2DBD7;*/
-    background-color: #FFC0CB;
+    background-color: #B2DBD7;
     cursor: default;
 }
 
