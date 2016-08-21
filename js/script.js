@@ -1,24 +1,16 @@
 $(function(){
+toggle_color ("#B2DBD7","#FFC0CB",4000,2000);
 function toggle_color (color1,color2,cycle_time,wait_time){
     setInterval (function first_color(){
-        $("nav").animate({
-              backgroundColor: color1
-        }, 1000, function(){
-               setTimeout (change_color, wait_time);
-        });
+        document.nav.style.backgroundColor=color1;
+        setTimeout(change_color, wait_time);
     }, cycle_time);
                 
 function change_color (){
-       $("nav").animate({
-              backgroundColor: color2
-        }, 1000, function(){
-              setTimeout(function (){}, wait_time);
-        });
+       document.nav.style.backgroundColor=color2;
 }
 }
 
-            
-toggle_color ('#B2DBD7','#FFC0CB',8000,3000);
 });
 
 $(function() {
