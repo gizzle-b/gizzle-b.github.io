@@ -73,10 +73,8 @@ nav.pinned {
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: contain;
-    width: 819px;
-    height: 426.33px;
-    /*width: 200px;
-    height: 200px;*/
+    width: 200px;
+    height: 200px;
     transform: translate(-50%, -50%);
 }
 
