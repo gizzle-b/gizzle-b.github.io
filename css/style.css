@@ -44,6 +44,10 @@ nav.pinned {
     z-index: 2;
 }
 
+.her h1:hover{
+    color: #434B4C;
+}
+
 .hero h6 {
     position: relative;
     text-align: center;
