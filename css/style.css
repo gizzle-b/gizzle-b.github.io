@@ -15,7 +15,7 @@ nav.pinned {
     
 }
 
-nav.pinned:hover{
+nav : hover{
     background-color: #FFC0CB;
 }
 
