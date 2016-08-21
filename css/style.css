@@ -14,10 +14,6 @@ nav.pinned {
     transition: background-color 0.5s ease;
 }
 
-nav.pinned:hover {
-    background-color: #FFC0CB;
-}
-
 .navbar-wrapper {
     height: 3rem;
 }
