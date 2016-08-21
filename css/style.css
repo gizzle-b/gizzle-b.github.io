@@ -11,11 +11,10 @@ nav.pinned {
     position: fixed;
     top: 0;
     background-color: #B2DBD7;
-    transition: 0.5s ease background-color;
-    
+    transition: background-color 0.5s ease;
 }
 
-nav : hover{
+.pinned:hover {
     background-color: #FFC0CB;
 }
 
