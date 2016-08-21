@@ -11,8 +11,12 @@ nav.pinned {
     position: fixed;
     top: 0;
     background-color: #B2DBD7;
-    transition: 0.3s ease background-color;
+    transition: 0.5s ease background-color;
     -webkit-transition: 0.2s ease background-color;
+}
+
+.pinned:hover{
+    background-color: #FFC0CB;
 }
 
 .navbar-wrapper {
