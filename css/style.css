@@ -14,7 +14,7 @@ nav.pinned {
     transition: background-color 0.5s ease;
 }
 
-.pinned:hover {
+nav.pinned:hover {
     background-color: #FFC0CB;
 }
 
