@@ -21,6 +21,26 @@
             })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
             ga('create', 'UA-74048790-1', 'auto');
             ga('send', 'pageview');
+            
+            function toggle_color (color1,color2,cycle_time,wait_time){
+                setInterval (function first_color(){
+                    $("nav.pinned").animate({
+                        backgroundColor: color1
+                    }, 1000, function(){
+                        setTimeout (change_color, wait_time);
+                    });
+                }, cycle_time);
+                
+            function change_color (){
+                $("nav.pinned").animate({
+                    backgroundColor: color2
+                }, 1000, function(){
+                    setTimeout(function (){}, wait_time);
+                });
+            }
+            }
+            
+            toggle_color ('#B2DBD7','#FFC0CB',8000,3000);
         </script>
     </head>
     <body>
